@@ -1,0 +1,6 @@
+{
+  "name": "Lagos Premium Real Estate Portal",
+  "description": "A luxury, premium real estate listings and lead generation portal for high-end properties in Lagos, Nigeria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "lead-1",
+    "listingId": "listing-1",
+    "listingTitle": "The Obsidian Pavilion Penthouse",
+    "name": "Tunde Folawiyo",
+    "email": "tunde@yopmail.com",
+    "phone": "+234 805 999 8888",
+    "preferredDate": "2026-06-25",
+    "preferredTime": "14:00",
+    "message": "Seeking a highly confidential viewing for a luxury island listing. Please coordinate with my office.",
+    "status": "Pending",
+    "createdAt": "2026-06-18T10:00:00Z"
+  },
+  {
+    "id": "lead-2",
+    "listingId": "listing-2",
+    "listingTitle": "Aura Waterfront Cantilever Villa",
+    "name": "Fatima Aliko",
+    "email": "fatima@yopmail.com",
+    "phone": "+234 810 222 3333",
+    "preferredDate": "2026-06-28",
+    "preferredTime": "11:00",
+    "message": "Extremely interested in this cantilever property with jetty access. Please let me know if a docking trial is possible.",
+    "status": "Pending",
+    "createdAt": "2026-06-19T08:15:00Z"
+  }
+]
