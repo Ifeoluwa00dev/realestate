@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Roselle Studio — Real Estate Site
 
-# Run and deploy your AI Studio app
+A property listings and lead generation website for Lagos-based property agencies, with full-text search and agent profiles.
 
-This contains everything you need to run your app locally.
+## Stack
+Next.js 14 (App Router) + TypeScript · Supabase (listings + leads) · Cloudinary · Resend · Vercel
 
-View your app in AI Studio: https://ai.studio/apps/4e6f41ec-3d99-44d5-8007-91170939c1b1
+## What's Included
+- Property listings with filters (type, bedrooms, price range, location) and grid/list toggle
+- Property detail page — image gallery, amenities, virtual tour embed, agent contact card
+- "Schedule a Viewing" form — saves to Supabase, emails agent via Resend
+- Agent profiles with all their listings
+- WhatsApp inquiry button on every property (pre-filled message with property details)
+- Admin panel — add/edit/delete listings with multi-image Cloudinary upload, mark as sold/let
+- Full-text search via Supabase `tsvector`
+- Schema.org `RealEstateListing` structured data per property
 
-## Run Locally
-
-**Prerequisites:**  Node.js
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+
+## Deployment
+- **App** → Vercel
+- **Images** → Cloudinary (free tier handles most agencies)
+
+---
+Built by [Roselle Studio]
